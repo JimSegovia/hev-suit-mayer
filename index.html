@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HEV Suit Mayer · Visualizador 3D</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header><div class="brand"><span class="lambda">λ</span><div><strong>HEV SUIT <em>MAYER</em></strong><small>Estudio de piezas · prototipo</small></div></div><div class="top-actions"><button id="resetView">Restablecer vista</button><button id="saveDesign">Guardar diseño</button></div></header>
+  <main>
+    <aside class="panel left">
+      <div class="eyebrow">01 / CONFIGURACIÓN</div><h1>Diseñemos el traje de Mayer</h1><p class="intro">Ajusta el maniquí, enciende las piezas y gira el modelo para ver cómo quedaría el conjunto.</p>
+      <div class="section-title">MEDIDAS DEL CUERPO <span>cm</span></div>
+      <div id="measurements"></div>
+      <div class="note">Usa medidas tomadas sobre ropa ligera. El modelo es una guía visual; prueba cada patrón en papel antes de cortar el material final.</div>
+      <div class="section-title">VISUALIZACIÓN</div>
+      <label class="switch-row"><span>Mostrar cuerpo</span><input type="checkbox" id="showBody" checked><i></i></label>
+      <label class="switch-row"><span>Mostrar armadura</span><input type="checkbox" id="showArmor" checked><i></i></label>
+      <label class="switch-row"><span>Modo transparente</span><input type="checkbox" id="xray"><i></i></label>
+      <div class="section-title">ACABADO</div>
+      <div class="swatches"><button class="swatch selected" data-color="orange" title="Naranja clásico"></button><button class="swatch" data-color="yellow" title="Amarillo"></button><button class="swatch" data-color="red" title="Rojo"></button></div>
+    </aside>
+    <section class="viewer"><div class="viewport-head"><span class="live-dot"></span> VISTA 3D <span class="spacer"></span><span id="viewLabel">Arrastra para girar · rueda para acercar</span></div><div id="scene"></div><div class="viewer-foot"><span>↑ FRENTE</span><span>MODELO PARAMÉTRICO · V1</span></div></section>
+    <aside class="panel right"><div class="eyebrow">02 / COMPONENTES</div><h2>Piezas del traje</h2><p class="intro">Activa las secciones que quieres fabricar. Izquierda y derecha se ajustan juntas.</p><div class="part-actions"><button id="allParts">Todas</button><button id="noParts">Ninguna</button></div><div id="parts"></div><div class="export-box"><div class="section-title">PLANTILLAS 2D</div><p>Descarga un SVG por sección con medidas aproximadas en milímetros y escala 1:1.</p><button class="primary" id="exportSvg">Exportar plantillas SVG ↗</button><small>Imprime al 100 % y verifica el cuadrado de 50 mm. Añade holgura y uniones durante la prueba en papel.</small></div></aside>
+  </main>
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
+  <script type="module" src="app.js"></script>
+</body></html>
