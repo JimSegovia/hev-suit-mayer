@@ -18,7 +18,7 @@ export const MEASURES = [
   { id: 'headH', label: 'Alto de cabeza', def: 21, min: 16, max: 26, hint: 'Barbilla → coronilla, de perfil.' },
   { id: 'neck', label: 'Contorno de cuello', def: 28, min: 22, max: 38, hint: 'Cinta alrededor de la base del cuello, como un cuello de camisa.' },
   { group: 'Tronco · cinta horizontal, sin apretar' },
-  { id: 'shoulderW', label: 'Ancho de hombros', def: 44, min: 24, max: 55, hint: 'Punta de un hombro → punta del otro, por la espalda.' },
+  { id: 'shoulderW', label: 'Ancho de hombros', def: 38, min: 24, max: 55, hint: 'Punta de un hombro → punta del otro, por la espalda.' },
   { id: 'chestC', label: 'Contorno de pecho', def: 88, min: 48, max: 95, hint: 'Alrededor del pecho a nivel de las axilas, brazos abajo.' },
   { id: 'waistC', label: 'Contorno de cintura', def: 78, min: 44, max: 85, hint: 'Alrededor de la cintura natural.' },
   { id: 'hipC', label: 'Contorno de cadera', def: 83, min: 50, max: 100, hint: 'Alrededor de la parte más ancha de los glúteos.' },

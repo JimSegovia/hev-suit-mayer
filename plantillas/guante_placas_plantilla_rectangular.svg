@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+<style>text{font-family:Arial,sans-serif;fill:#222}.title{font-size:5px;font-weight:bold}.note{font-size:3.2px}.piece{fill:#ffb04b;stroke:#111;stroke-width:.4}.num{font-size:3.4px;text-anchor:middle;dominant-baseline:middle}</style>
+<text class="title" x="10" y="11">PLACAS NARANJAS PARA GUANTE · PLACA RECTANGULAR</text>
+<text class="note" x="10" y="17">Imprimir A4 al 100 %. Cortar por el borde negro. Probar la posición sobre el guante antes de pegar.</text>
+<text class="note" x="10" y="23">Medidas aproximadas para mano adulta; ajustar cada pieza al tamaño de tus dedos.</text>
+
+<!-- Rectangular back-of-hand plate -->
+<rect class="piece" x="23" y="32" width="77" height="47" rx="5"/>
+<text class="num" x="61.5" y="55">A · DORSO</text>
+
+<!-- Thumb: base, middle, tip -->
+<rect class="piece" x="123" y="34" width="22" height="36" rx="6"/><text class="num" x="134" y="52">P1</text>
+<rect class="piece" x="153" y="34" width="18" height="28" rx="6"/><text class="num" x="162" y="48">P2</text>
+<rect class="piece" x="178" y="34" width="12" height="20" rx="5"/><text class="num" x="184" y="44">P3</text>
+
+<!-- Four fingers, three pads each. Black glove remains visible at every joint. -->
+<text class="note" x="15" y="97">ÍNDICE</text><text class="note" x="63" y="97">MEDIO</text><text class="note" x="111" y="97">ANULAR</text><text class="note" x="159" y="97">MEÑIQUE</text>
+<rect class="piece" x="20" y="103" width="23" height="35" rx="7"/><text class="num" x="31.5" y="120">I1</text>
+<rect class="piece" x="22" y="146" width="19" height="29" rx="6"/><text class="num" x="31.5" y="160">I2</text>
+<rect class="piece" x="25" y="183" width="13" height="19" rx="5"/><text class="num" x="31.5" y="192">I3</text>
+
+<rect class="piece" x="68" y="103" width="24" height="39" rx="7"/><text class="num" x="80" y="122">M1</text>
+<rect class="piece" x="70" y="150" width="20" height="33" rx="6"/><text class="num" x="80" y="166">M2</text>
+<rect class="piece" x="73" y="191" width="14" height="21" rx="5"/><text class="num" x="80" y="201">M3</text>
+
+<rect class="piece" x="116" y="103" width="23" height="36" rx="7"/><text class="num" x="127.5" y="120">A1</text>
+<rect class="piece" x="118" y="147" width="19" height="30" rx="6"/><text class="num" x="127.5" y="162">A2</text>
+<rect class="piece" x="121" y="185" width="13" height="19" rx="5"/><text class="num" x="127.5" y="194">A3</text>
+
+<rect class="piece" x="164" y="103" width="20" height="31" rx="6"/><text class="num" x="174" y="118">Ñ1</text>
+<rect class="piece" x="166" y="142" width="16" height="24" rx="5"/><text class="num" x="174" y="154">Ñ2</text>
+<rect class="piece" x="169" y="174" width="10" height="17" rx="4"/><text class="num" x="174" y="182">Ñ3</text>
+
+<text class="note" x="10" y="239">Orden: A sobre el dorso; P en el pulgar; I, M, A y Ñ en cada dedo, del nudillo hacia la punta.</text>
+<text class="note" x="10" y="245">Deja 5–8 mm de guante visible entre placas para poder flexionar los dedos.</text>
+<text class="note" x="10" y="251">Si el guante es derecho, voltea la pieza A y conserva la distribución de los dedos.</text>
+<rect x="10" y="266" width="20" height="10" fill="none" stroke="#111" stroke-width=".4"/>
+<text class="note" x="12" y="272">20 mm</text>
+</svg>
